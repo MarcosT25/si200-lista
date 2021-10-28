@@ -13,4 +13,5 @@ void main() {
         count++;
     }
     printf("O número de linhas do arquivo é: %d\n", count);
+    fclose(fp);
 }
